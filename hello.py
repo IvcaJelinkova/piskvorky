@@ -17,3 +17,5 @@ def hello(name=None):
 @app.route('/user/<username>/')
 def profile(username): 
     return f'User {username}'
+
+app.run()
